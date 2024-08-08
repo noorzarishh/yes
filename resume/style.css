@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* body */
+body{
+    background-color: dimgrey;
+    display:flex;
+    justify-content: center;
+    padding: 6rem;
+
+}
+
+/* calculater */
+#calculater-box{
+    height: 19rem;
+    width: 14rem;
+    background-color: cornflowerblue;
+    border-radius: 2rem;
+    border: 3px solid black;
+}
+
+/* input */
+#input-box{
+ height: 50px;
+ width: 12rem;
+ background-color: white;
+ border: 2px solid black;
+ margin-top: 15px;
+ margin-left:15px;
+}
+
+/* button-list1 */
+.button-list{
+  display:flex;
+  margin-top: 25px;
+  margin-left: 24px;
+  gap:8px;
+}
+
+/* buttons */
+button{
+    height:33px;
+    width:38px;
+    background-color:grey;
+      border: 2px solid black;
+    border-radius:8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color:white;
+    box-shadow: -5px -5px 10px white;
+    cursor: pointer;
+    
+}
+ #ac{
+    color:chartreuse;
+    
+ }
+
+ #del{
+    color:chartreuse;
+
+ }
+
+    /* percentage */
+ #percentage{
+    color:chartreuse;
+
+ }
+
+ /* divide */
+ #divide{
+    color:chartreuse;
+    
+ }
+
+
+/* button-list2 */
+.button-list2{
+    display:flex;
+    margin-top: 7px;
+    margin-left: 24px;
+    gap:8px;
+  }
+  
+  /* buttons */
+  button{
+      height:33px;
+      width:38px;
+      background-color:grey;
+        border: 2px solid black;
+      border-radius:8px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      color:white;
+      
+  }
+       
+  /*multiplication*/
+  #multiplication{
+    font-size: 22px;
+    color:chartreuse;
+
+  }
+
+
+  /* mul */
+  #mul{
+    margin-top:10px;
+  }
+
+
+  /* button-list3*/
+.button-list3{
+    display:flex;
+    margin-top: 7px;
+    margin-left: 24px;
+    gap:8px;
+  }
+  
+  /* buttons */
+  button{
+      height:33px;
+      width:38px;
+      background-color:grey;
+        border: 2px solid black;
+      border-radius:8px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      color:white;
+      
+  }
+  #subtraction{
+    color:chartreuse;
+    font-size: 22px;
+  }
+
+
+
+   /* button-list4*/
+.button-list4{
+    display:flex;
+    margin-top: 7px;
+    margin-left: 24px;
+    gap:8px;
+  }
+  
+  /* buttons */
+  button{
+      height:33px;
+      width:38px;
+      background-color:grey;
+        border: 2px solid black;
+      border-radius:8px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      color:white;
+      
+  }
+
+  #addition{
+    color:chartreuse;
+    font-size: 20px;
+
+  }
+ 
+  /* button-5*/
+.button-list5{
+    display:flex;
+    margin-top: 7px;
+    margin-left: 24px;
+    gap:8px;
+  }
+    
+  /* equalBtn */
+  .equalBtn{
+    height:33px;
+    width:38px;
+    background-color:coral;
+      border: 2px solid black;
+    border-radius:8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color:white;
+    color:white;
+    font-size: 22px;
+    
+}
+  /* dot */
+  #dot{
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
